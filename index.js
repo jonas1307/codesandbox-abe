@@ -111,14 +111,10 @@ const createpage = (page) => {
 		<title>Page ${page}</title>
 	</head>
 	<body>
-		<h1>Page ${page}</h1>
-		<a href="/page1">Page1</a>
-		<a href="/page2">Page2</a>
-		${Array.from({ length: 10 }, () => Math.random())
-      .map((n, index) => `<p>${index}</p>`)
-      .join("")}
+		<h1>Trabalho Prático 1</h1>
 	</body>
-	</html>`;
+</html> 
+`;
 };
 const port = 3000;
 server.listen(port, () => {
